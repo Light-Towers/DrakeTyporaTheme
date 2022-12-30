@@ -382,11 +382,7 @@ h2 {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
 }
-h2 .md-plain {
-    padding-bottom: .3rem;
-    border-bottom: .2rem solid var(--h2-underline-color);
-    line-height: 3rem;
-}
+
 .on-focus-mode h2.md-end-block.md-heading:not(.md-focus):not(.md-focus-container):after {
     background-color: var(--blur-text-color) !important;
 }
@@ -1171,6 +1167,7 @@ a.ty-link {
 }
 .cm-s-inner .CodeMirror-gutters {
     border-right: 1px solid rgba(120, 120, 120, 0.3);
+    background: var(--code-block-bg-color);
 }
 .cm-s-inner .CodeMirror-linenumber {
     color: #585b5d;

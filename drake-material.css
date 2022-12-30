@@ -376,11 +376,7 @@ h2 {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
 }
-h2 .md-plain {
-    padding-bottom: .3rem;
-    border-bottom: .2rem solid var(--h2-underline-color);
-    line-height: 3rem;
-}
+
 .on-focus-mode h2.md-end-block.md-heading:not(.md-focus):not(.md-focus-container):after {
     background-color: var(--blur-text-color) !important;
 }
@@ -1167,8 +1163,7 @@ a.ty-link {
     color: #DECB6B;
 }
 .cm-s-inner .cm-error {
-    color: rgba(255, 255, 255, 1.0);
-    background-color: #FF5370;
+    color: #FF5370;
 }
 .cm-s-inner .CodeMirror-matchingbracket {
     text-decoration: underline;
