@@ -30,7 +30,7 @@
 
 <br>
 
-> 如果发生符号粘连, 那是主题内置字体JetBrainsMono的特性`ligatures`, 如不喜欢可自行删除: [#75](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/75)
+> 如果发生符号粘连(例如≠), 那是主题内置字体JetBrainsMono的特性`ligatures`, 如不喜欢可自行删除: [#75](https://github.com/liangjingkanji/DrakeTyporaTheme/issues/75)
 
 <br>
 
@@ -50,7 +50,7 @@
 
 - [ ] 通过`设置 -> 外观 -> 打开主题文件夹`打开theme目录
 
-- [ ] 复制所有文件到`theme`目录下然后重启, 选择菜单栏 -> 主题即可
+- [ ] 复制解压后目录内的所有文件到`theme`目录下然后重启, 选择菜单栏 -> 主题即可
 
 
 
