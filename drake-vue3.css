@@ -121,6 +121,10 @@ p {
     fill: var(--table-n2-bg-color) !important;
     stroke: var(--table-border-color) !important;
 }
+[id^=mermaidChart] .grid .tick text,
+[id^=mermaidChart] .titleText {
+    fill: var(--text-color) !important;
+}
 [id^=mermaidChart] .clusters span.nodeLabel {
     color: var(--text-color) !important;
     line-height: 1.8rem;
@@ -306,7 +310,7 @@ blockquote {
     border: 1px solid #42b883;
 }
 
-#write strong {
+strong {
     color: var(--strong-color);
     font-weight: bold;
 }
@@ -807,7 +811,7 @@ footer {
 
 /*sidebar*/
 .file-library-node.file-tree-node.file-node-root {
-    font-size: 1.1rem;
+    font-size: var(--file-tree-text-size);
 }
 .file-node-content:hover .file-node-icon,
 .file-node-content:hover .file-node-open-state {
@@ -844,7 +848,7 @@ footer {
 }
 
 .outline-item {
-    font-size: 1rem;
+    font-size: var(--toc-text-size);
 }
 
 /*footnotes mark*/
@@ -1225,4 +1229,5 @@ a.ty-link {
 }
 .cm-s-inner .cm-header, .cm-s-inner.cm-header {
     color: #FFD760;
+    font-weight: normal;
 }
